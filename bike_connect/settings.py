@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 import logging
 import boto3
-from decouple import config
+from decouple import config 
 
 # Base Directory: Refers to the root directory of the project 
 BASE_DIR = Path(__file__).resolve().parent.parent
